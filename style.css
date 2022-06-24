@@ -1,0 +1,37 @@
+
+#nombre{
+    background-color: rgb(119, 233, 248);
+}
+
+#apellido{
+    background-color: rgb(119, 197, 248);
+}
+
+#direccion{
+    background-color: rgb(119, 166, 248);
+}
+
+#modificar{
+    background-color: rgb(246, 160, 160);
+}
+
+#eliminar{
+    background-color: rgb(208, 149, 251);
+}
+
+
+#contenidonombre {
+    background-color: rgb(119, 233, 248);
+    font-size: 20px;
+}
+
+#contenidoapellido{
+    background-color: rgb(119, 197, 248);
+    font-size: 20px;
+}
+
+#contenidodireccion{
+    background-color: rgb(119, 166, 248);
+    font-size: 20px;
+
+}

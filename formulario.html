@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMULARIO</title>
+  </head>
+  <body>
+  
+
+
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="apellido" placeholder="Apellido">
+    <input type="text" id="direccion" placeholder="Direccion">
+    <input type="text" id="modificar" placeholder="Modificar">
+    <input type="text" id="eliminar" placeholder="Eliminar">
+
+
+
+
+    <input class="btn btn-primary" type="button" value="Guardar-nombre" onclick="guardarnombre()">
+    <input class="btn btn-primary" type="button" value="Guardar-apellido" onclick="guardarapellido()">
+    <input class="btn btn-primary" type="button" value="Guardar-direccion" onclick="guardardireccion()">
+
+    <input class="btn btn-primary" type="submit" value="Consultar-nombre" onclick="mostrarnombre()">
+    <input class="btn btn-primary" type="submit" value="Consultar-apellido" onclick="mostrarapellido()">
+
+    <input class="btn btn-primary" type="submit" value="Modificar nombre" id="posicion" onclick="modificar()">  
+
+
+    <input class="btn btn-primary" type="submit" value="Eliminar nombre" onclick="eliminar()">
+
+    
+
+    <div id="contenidonombre">
+      NOMBRES
+    </div>
+
+    <input type="button" name="" id="modificarcontenido" value="Mostrar Nombre" onclick="cambiar()">
+
+    <div id="contenidoapellido">
+      APELLIDO
+    </div>
+
+    <input type="button" name="" id="modificarcontenido" value="Mostrar Apellido" onclick="cambiarapellido()">
+   
+    <div id="contenidodireccion">
+      DIRECCION
+    </div>
+
+    <input type="button" name="" id="modificarcontenido" value="Mostrar Direccion" onclick="cambiardireccion()">
+
+
+    <div id="for">
+
+      CICLO FOR
+    </div>
+
+    <input type="button" name="" id="ciclofor" value="Ciclo For" onclick="ciclofor()">
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+    <script src="formulario.js" ></script>
+  </body>
+</html>
